@@ -1,1 +1,273 @@
 alessiasblog.it
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer 2014 Blog</title>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('/mnt/data/9a0389012170e2a22db9052c99248575.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #000; /* Black text for writing */
+            text-shadow: none;
+        }
+        header {
+            background: rgba(203, 171, 176, 0.9); /* #cbabb0 */
+            color: #cec3bd; /* #cec3bd */
+            padding: 30px;
+            text-align: center;
+             font-size: 3em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-image: url(https://it.pinterest.com/pin/4292562114949232/);
+            background-size: cover;
+            background-blend-mode: overlay;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: rgba(149, 132, 164, 0.8); /* #9584a4 */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #cec3bd; /* #cec3bd */
+            text-decoration: none;
+            padding: 15px 25px;
+            font-weight: bold;
+            font-family: 'Raleway', sans-serif;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            background: rgba(206, 169, 177, 0.8); /* #cea9b1 */
+            color: #d2b6b3; /* #d2b6b3 */
+            border-radius: 4px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: rgba(208, 190, 176, 0.9); /* #d0beb0 */
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+        .stickers {
+            position: absolute;
+            top: -50px;
+            right: -50px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .sticker {
+            width: 70px;
+            height: 70px;
+            background-size: cover;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .frappe {
+            background-image: url('https://example.com/frappe-image.jpg'); /* https://it.pinterest.com/pin/4292562114949232/*/
+        }
+        .vogue {
+            background-image: url('https://example.com/vogue-image.jpg'); /* Replace with actual link */
+        }
+        .sunglasses {
+            background-image: url('https://example.com/sunglasses-image.jpg'); /* Replace with actual link */
+        }
+        article {
+            margin-bottom: 30px;
+             }
+        h2 {
+            color: #a27d9c; /* #a27d9c */
+            font-family: 'Raleway', sans-serif;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        .weekly-board {
+            margin-top: 50px;
+            background: url('https://example.com/corkboard-image.jpg'); /* Replace with actual corkboard image */
+            background-size: cover;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background: rgba(203, 171, 176, 0.9); /* #cbabb0 */
+            color: #cec3bd; /* #cec3bd */
+            text-align: center;
+            padding: 20px 0;
+            font-size: 1em;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .collage-area {
+            margin-top: 30px;
+        }
+    </style>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Summer 2014 Vibes</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="stickers">
+            <div class="sticker frappe"></div>
+            <div class="sticker vogue"></div>
+            <div class="sticker sunglasses"></div>
+        </div>
+        <div class="weekly-board">
+            <h2>Weekly Collage Board</h2>
+            <p>Upload your weekly photo collages here to share your memories!</p>
+            <!-- Add file upload functionality here -->
+        </div>
+        <article>
+            <h2>Sunset Memories</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut neque id ligula vulputate vehicula. Feel the summer breeze!</p>
+        </article>
+        <article>
+            <h2>Beach Adventures</h2>
+            <p>Nulla facilisi. Duis ornare nisi in sem tincidunt, nec volutpat orci varius. Let the waves set you free
+             </article>
+        <div class="collage-area">
+            <h2>My Favorite Outfits</h2>
+            <p>Highlight your weekly outfit inspirations!</p>
+            <!-- Add gallery functionality here -->
+        </div>
+        <div class="series-area">
+            <h2>Series of the Week</h2>
+            <p>Share your favorite series and discuss!</p>
+            <!-- Add interactive section here -->
+        </div>
+        <footer>
+            <p>&copy; 2025 Summer Blog | All rights reserved.</p>
+            <div class="social-links">
+                <p>Created by [Your Name]. Connect with me: <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+             background-color: #f4f4f4;
+        }
+        header {
+            background-color: #9584a4;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #695b7e;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+         background-color: #a27d9c;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #695b7e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog Admin Panel</h1>
+    </header>
+    <div class="container">
+        <h2>Update Blog Content</h2>
+        <form id="adminForm">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" placeholder="Enter blog title" required>
+
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="5" placeholder="Enter blog description" required></textarea>
+
+            <label for="image">Background Image URL</label>
+            <input type="text" id="image" name="image" placeholder="Enter image URL">
+
+            <button type="submit">Save Changes</button>
+        </form>
+    </div>
+     <script>
+        document.getElementById('adminForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+
+            const title = document.getElementById('title').value;
+            const description = document.getElementById('description').value;
+            const image = document.getElementById('image').value;
+
+            const response = await fetch('update_blog.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    title,
+                    description,
+                    image,
+                }),
+            });
+
+            if (response.ok) {
+                alert('Blog updated successfully!');
+            } else {
+                alert('Failed to update the blog.');
+            }
+        });
+    </script>
+</body>
+</html>
+git add .
+git commit -m "Aggiunge miglioramenti al blog"
+git push origin main
